@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Timer</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="centerbox">
+
+            <h1 class="title">Timer</h1>
+
+        <div class="inputs" id="inputss">
+            <input type="number" id="hinput" min="0" max="99" value="0">
+            <input type="number" id="minput" min="0" max="99" value="0">
+            <input type="number" id="sinput" min="1" max="99" value="0">
+        </div>
+
+        <h1 id="timert"></h1>
+            
+        <div class="buttonse">
+        
+        <div class="buttondiv">
+        <button type="button" class="startbutton" id="stbutton" onclick="startTimer()">Start</button>
+        <button type="button" id="sbutton" onclick="stopTimer()">Stop</button>
+        <button type="button" id="rbutton" onclick="resetTimer()">Reset</button>
+        <button type="button" id="resbutton" onclick="resumeTimer()">Resume</button>
+        </div>
+    
+        </div>
+
+
+    </div>
+
+    <script src='main.js'></script>
+
+</body>
+</html>
